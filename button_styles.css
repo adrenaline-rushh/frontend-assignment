@@ -8,38 +8,38 @@ body {
 }
 
 .container {
-    border: 1px dashed #9747FF; /* Border for the container */
-    height: 200px;         /* Height of the border */
-    width: 380px;           /* Set width of the container */
-    background-color: #fff; /* Background color inside the container */
+    border: 1px dashed #9747FF; 
+    height: 200px;         
+    width: 380px;           
+    background-color: #fff; 
     position: relative;
 }
 
 .btn1, .btn2, .btn3 {
-    width: 340px;             /* Set width of the buttons */
-    height: 40px;             /* Set height of the buttons */
+    width: 340px;            
+    height: 40px;            
     border: none;
-    position: absolute;       /* Ensure positioning with top and left works */
-    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
-    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    position: absolute;       
+    font-family: 'Montserrat', sans-serif; 
+    transition: background-color 0.3s ease; 
 }
 
 .btn1 {
-    top: 20px;                /* Position 20px from the top of the container */
-    left: 20px;               /* Position 20px from the left of the container */
-    background-color: #FFCE22; /* Custom color for Button 1 */
+    top: 20px;                
+    left: 20px;               
+    background-color: #FFCE22; 
 }
 
 .btn2 {
-    top: 80px;                /* Position 80px from the top of the container */
-    left: 20px;               /* Position 20px from the left of the container */
-    background-color: #ffd84d; /* Custom color for Button 2 */
+    top: 80px;               
+    left: 20px;               
+    background-color: #ffd84d; 
 }
 
 .btn3 {
-    top: 140px;               /* Position 140px from the top of the container */
-    left: 20px;               /* Position 20px from the left of the container */
-    background-color: #FFCE22; /* Custom color for Button 3 */
+    top: 140px;               
+    left: 20px;               
+    background-color: #FFCE22; 
 }
 
 .btn:hover {
