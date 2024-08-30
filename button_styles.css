@@ -30,10 +30,18 @@ body {
     background-color: #FFCE22; 
 }
 
+.btn1:hover {
+    background-color: #ffd84d;
+}
+
 .btn2 {
     top: 80px;               
     left: 20px;               
     background-color: #ffd84d; 
+}
+
+.btn2:active {
+    background-color: #FFCE22;
 }
 
 .btn3 {
