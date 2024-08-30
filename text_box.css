@@ -55,8 +55,6 @@ body {
     border-bottom: 1px solid #E3E3E3;
     bottom: 10px;
     transform: rotate(315deg);
-    /* border: 1px;*/
-    /* border-color: #811919;  */
 }
 
 .checkmark1:hover {
@@ -64,8 +62,6 @@ body {
 }
 
 .checkmark1:hover::after {
-
-    /* content: "✔"; */
     display: block;
 }
 
@@ -77,13 +73,13 @@ body {
     height: 23px;
     width: 23px;
     background-color: #fffdfd;
-    border: 1px solid #BDBDBD; /* Border visible by default */
-    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #BDBDBD;
+    border-radius: 8px; 
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s ease; /* Smooth transition for all changes */
+    transition: all 0.3s ease;
 }
 
 .checkmark2::after {
@@ -91,13 +87,11 @@ body {
     display: block;
     width: 16px;
     height: 6px;
-    border-left: 1px solid #E3E3E3; /* Default tick mark color (e.g., Tomato) */
+    border-left: 1px solid #E3E3E3;
     border-bottom: 1px solid #E3E3E3;
     transform: rotate(-45deg);
     position: absolute;
     bottom: 9px;
-    /* top: 4px;
-    left: 7px; */
 }
 
 .checkmark2.active::before {
@@ -105,7 +99,7 @@ body {
     display: block;
     width: 10px;
     height: 5px;
-    border-left: 1px solid #008000; /* Active tick mark color (e.g., Green) */
+    border-left: 1px solid #008000;
     border-bottom: 1px solid #008000;
     transform: rotate(-45deg);
     position: absolute;
@@ -113,61 +107,53 @@ body {
     left: 7px;
 }
 
-/* Toggling active state on click */
 .checkmark2:active {
    background-color: #ffffff; 
    box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.3);
 }
 
 .checkmark2:active::after {
-    border-left: 1px solid #878787; /* Tick mark color on pressing (e.g., Green) */
+    border-left: 1px solid #878787; 
     border-bottom: 1px solid #878787;
 }
 
 .checkmark3 {
     position: absolute;
-    /* Center vertically */
-    right: 20px; /* Center horizontally */
-    /* transform: translate(-50%, -50%);  */
-    /* Adjust for centering */
+    right: 20px;  
     height: 23px;
     width: 23px;
     background-color: #fffdfd;
-    /* border: 2px solid #9747FF; Border of the checkbox */
-    border-radius: 8px; /* Rounded corners */
+   
+    border-radius: 8px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s ease; /* Smooth transition for changes */
-    box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.3); /* Translucent blue border by default */
+    transition: all 0.3s ease;
+    box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.3);
 }
 
-/* Default Tick Mark */
 .checkmark3::after {
     content: "";
     display: block;
     width: 16px;
     height: 6px;
-    border-left: 1px solid #878787; /* Default tick mark color (e.g., Tomato) */
+    border-left: 1px solid #878787;
     border-bottom: 1px solid #878787;
     transform: rotate(-45deg);
     position: absolute;
-    /* top: 4px;
-    left: 7px; */
     bottom: 10px;
-    transition: all 0.3s ease; /* Smooth transition for tick mark changes */
+    transition: all 0.3s ease;
 }
 
-/* Checkbox on Press */
+
 .checkmark3:active {
-    background-color: #5087F8; /* Blue background on pressing */
-    box-shadow: none; /* Remove box-shadow on pressing */
+    background-color: #5087F8;
+    box-shadow: none;
 }
 
-/* Tick Mark on Press */
 .checkmark3:active::after {
-    border-left: 1px solid #FFFFFF; /* White tick mark on pressing */
+    border-left: 1px solid #FFFFFF;
     border-bottom: 1px solid #FFFFFF;
 }
 
@@ -177,8 +163,6 @@ body {
     height: 23px;
     width: 23px;
     background-color: #2469F6;
-    /* border: 1px solid transparent; */
-    /* box-sizing: border-box; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,15 +173,12 @@ body {
 
 .checkmark4::after {
     content: "";
-    /* display: none; Hide by default */
     width: 16px;
     height: 6px;
     border-left: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
     transform: rotate(315deg);
     bottom: 10px;
-    /* border: 1px;*/
-    /* border-color: #811919;  */
 }
 
 .checkmark4:hover {
@@ -206,7 +187,6 @@ body {
 }
 
 .checkmark4:hover::after {
-    /* content: "✔"; */
     display: block;
 }
 
@@ -216,8 +196,6 @@ body {
     height: 23px;
     width: 23px;
     background-color: #2469F6;
-    /* border: 1px solid transparent; */
-    /* box-sizing: border-box; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -228,15 +206,12 @@ body {
 
 .checkmark5::after {
     content: "";
-    /* display: none; Hide by default */
     width: 16px;
     height: 6px;
     border-left: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
     transform: rotate(315deg);
     bottom: 10px;
-    /* border: 1px;*/
-    /* border-color: #811919;  */
 }
 
 .checkmark5:hover {
@@ -245,7 +220,6 @@ body {
 }
 
 .checkmark5:hover::after {
-    /* content: "✔"; */
     display: block;
 }
 
@@ -255,13 +229,12 @@ body {
     height: 23px;
     width: 23px;
     background-color: #5087F8;
-    /* border: 1px solid #BDBDBD; Border visible by default */
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 8px; 
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s ease; /* Smooth transition for all changes */
+    transition: all 0.3s ease;
 }
 
 .checkmark6::after {
@@ -269,13 +242,11 @@ body {
     display: block;
     width: 16px;
     height: 6px;
-    border-left: 1px solid #ffffff; /* Default tick mark color (e.g., Tomato) */
+    border-left: 1px solid #ffffff; 
     border-bottom: 1px solid #ffffff;
     transform: rotate(-45deg);
     position: absolute;
     bottom: 10px;
-    /* top: 4px;
-    left: 7px; */
 }
 
 .checkmark6.active::before {
@@ -283,7 +254,7 @@ body {
     display: block;
     width: 10px;
     height: 5px;
-    border-left: 1px solid #008000; /* Active tick mark color (e.g., Green) */
+    border-left: 1px solid #008000; 
     border-bottom: 1px solid #008000;
     transform: rotate(-45deg);
     position: absolute;
@@ -291,14 +262,14 @@ body {
     left: 7px;
 }
 
-/* Toggling active state on click */
+
 .checkmark6:active {
    background-color: #2469F6; 
    box-shadow: 0 0 0 3px #6767aa4d;
 }
 
 .checkmark6:active::after {
-    border-left: 1px solid #ffffff; /* Tick mark color on pressing (e.g., Green) */
+    border-left: 1px solid #ffffff; 
     border-bottom: 1px solid #ffffff;
 }
 
@@ -308,14 +279,13 @@ body {
     height: 23px;
     width: 23px;
     background-color: #2469F6;
-    /* border: 1px solid #BDBDBD; Border visible by default */
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 8px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 0 3px #6767aa4d;
-    transition: all 0.3s ease; /* Smooth transition for all changes */
+    transition: all 0.3s ease; 
 }
 
 .checkmark7::after {
@@ -323,13 +293,11 @@ body {
     display: block;
     width: 16px;
     height: 6px;
-    border-left: 1px solid #ffffff; /* Default tick mark color (e.g., Tomato) */
+    border-left: 1px solid #ffffff; 
     border-bottom: 1px solid #ffffff;
     transform: rotate(-45deg);
     position: absolute;
     bottom: 10px;
-    /* top: 4px;
-    left: 7px; */
 }
 
 .checkmark7:hover {
@@ -363,20 +331,14 @@ body {
 
 .checkmark8::after {
     content: "";
-    display: none; /* Hide by default */
+    display: none; 
     width: 16px;
     height: 6px;
     border-left: 1px solid #E3E3E3;
     border-bottom: 1px solid #E3E3E3;
     transform: rotate(315deg);
-    
-    /* border: 1px;*/
-    /* border-color: #811919;  */
 }
 
 .checkmark8:hover::after {
-
-    /* content: "✔"; */
-    display: block;
-    
+    display: block;   
 }
